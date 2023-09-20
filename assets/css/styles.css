@@ -386,20 +386,33 @@ z-index: 10;
 bottom: -100%;
 background-color: rgba(119, 193, 197, 0.705);
 transition: 0.3s;
+font-family: 'Noto Serif NP Hmong', serif;
 }
 
 .text-content p{
   margin-top: 25px;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong:wght@400;500;600;700&family=Roboto:wght@400&display=swap');
+
 .text-content i{
  margin-top: 40px ;
  margin-right: 18px;
+ 
 }
 
 .work__img:hover .text-content{
   bottom: 0;
+  background: rgba(255,255,255,0.3);
+-webkit-backdrop-filter: blur(6px);
+backdrop-filter: blur(6px);
+border: 1px solid rgba(255,255,255,0.15);
+
 }
+
+
+
 
 .work__img img:hover{
   filter: blur(2px);
